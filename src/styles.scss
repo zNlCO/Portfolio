@@ -1,0 +1,33 @@
+
+@use './assets/Scss/colors' as Colors;
+@import 'bootstrap/scss/bootstrap';
+
+* {
+    color: white;
+    font-family: "Anonymous Pro", serif;
+}
+
+body {
+    background-color: Colors.$bgcolor;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+
+.bg-green {
+    background-color: Colors.$green;
+}
+.green {
+    color: Colors.$green;
+}
+
+.white {
+    color: white;
+}
